@@ -1,0 +1,37 @@
+/* Language controls shared by the Chinese and English entry pages. */
+#header .language-switch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  margin: 0 0 1.8em;
+}
+#header .language-switch a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 4px 14px;
+  border: 1px solid rgba(212, 238, 229, .45);
+  border-radius: 6px;
+  color: #e6f3ee;
+  background: rgba(18, 36, 39, .2);
+  font-size: 14px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+#header .language-switch a:hover {
+  color: #fff;
+  background: rgba(73, 191, 157, .2);
+  border-color: #a0d6cb;
+}
+#header .language-switch a[aria-current="page"] {
+  color: #173d33;
+  background: #ccebdd;
+  border-color: #ccebdd;
+  font-weight: 600;
+}
+html[lang="en"] #profile-tagline { font-size: 15px; }
+@media screen and (max-width: 980px) {
+  #header .language-switch { justify-content: center; }
+}
