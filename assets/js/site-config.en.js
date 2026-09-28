@@ -4,7 +4,7 @@ window.STRATA_SITE = {
     "name": "Yusi Fan",
     "affiliation": "Harbin Institute of Technology · PhD Student",
     "tagline": "Embodied Manipulation, Model Post-training, Humanoid Robotics",
-    "avatar": "images/IMG/AU.png",
+    "avatar": "images/IMG/AU1.png",
     "email": "FYS2091276886@163.com",
     "introTitle": "About Me",
     "intro": "I am a PhD student at Harbin Institute of Technology and expect to graduate in 2027. Since 2024, I have been conducting research at Tsinghua University as part of my joint doctoral training. My research focuses on embodied intelligence, with an emphasis on foundation model post-training, robot policy learning, and real-world validation. My work spans contact-rich manipulation with visual, force, and tactile feedback, bimanual coordination, and motion control for mobile robotic platforms.",
