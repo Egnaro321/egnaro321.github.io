@@ -51,7 +51,7 @@ window.STRATA_SITE = {
       "paper": "CoReTac: Diffusion-Referenced Predictive Tactile Regulation for Precision Contact-Rich Manipulation",
       "meta": "IEEE Robotics and Automation Letters（RA-L）· 已录用",
       "description": "以世界—动作模型提供动作参考，结合触觉预测、候选动作后果评估与反馈调节，实现接触丰富任务中的精细操作。",
-      "cover": "images/IMG/CoReTac.png",
+      "cover": "images/IMG/CoreTac.png",
       "video": "videos/CoReTac.mp4"
     },
     {
