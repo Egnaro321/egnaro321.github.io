@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<!--
+  Strata by HTML5 UP | html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license).
+  日常更新请编辑 assets/js/site-config.js；完整文件夹可在 Windows 本地打开。
+-->
+<html lang="zh-CN">
+  <head>
+    <title>范雨思 · 研究与视频作品</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="范雨思，哈尔滨工业大学博士研究生。机器人学习、物理交互与真机研究作品。" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/video-portfolio.css" />
+  </head>
+  <body class="is-preload">
+    <a class="skip-link" href="#main">跳转到正文</a>
+    <header id="header">
+      <div class="inner">
+        <span class="image avatar" id="avatar-wrap" hidden><img id="profile-avatar" alt="范雨思的头像" /></span>
+        <span id="profile-monogram" class="profile-monogram" aria-hidden="true">FYS</span>
+        <h1><strong id="profile-name">范雨思</strong><br /><span id="profile-affiliation">哈尔滨工业大学 · 博士研究生</span><br /><span id="profile-tagline">机器人学习与控制</span></h1>
+        <a id="profile-email" class="profile-email" href="mailto:FYS2091276886@163.com">FYS2091276886@163.com</a>
+        <nav class="profile-nav" aria-label="页面导航"><a href="#one">关于我</a><a href="#two">视频作品</a><a id="publication-nav" href="#three" hidden>其他论文</a></nav>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">
+      <section id="one" aria-labelledby="intro-title">
+        <header class="major"><h2 id="intro-title">个人简介</h2></header>
+        <p id="profile-intro"></p>
+        <div id="research-block" class="profile-section" hidden><h3>研究方向</h3><ul id="research-list" class="research-list"></ul></div>
+        <div id="platform-block" class="profile-section" hidden><h3>实验平台</h3><ul id="platform-list" class="platform-list" aria-label="实验平台"></ul></div>
+      </section>
+      <section id="two" aria-labelledby="works-title">
+        <h2 id="works-title">代表性研究与视频作品</h2>
+        <p id="works-intro"></p>
+        <p id="config-error" role="alert">作品配置未加载。请检查 assets/js/site-config.js 是否存在，以及编辑时是否保留了引号、逗号和括号。</p>
+        <div id="work-grid" class="row"></div>
+      </section>
+      <section id="three" aria-labelledby="publication-title" hidden><h2 id="publication-title">其他论文</h2><ul id="publication-list" class="publication-list"></ul></section>
+      <noscript><p>请启用浏览器 JavaScript，以显示研究内容与视频作品。</p></noscript>
+    </main>
+    <footer id="footer"><div class="inner"><ul class="copyright"><li>&copy; <span id="copyright-name">范雨思</span></li><li>Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li></ul></div></footer>
+    <dialog id="video-dialog" class="video-dialog" aria-labelledby="video-title">
+      <div class="video-topbar"><h2 id="video-title">实验视频</h2><button type="button" id="video-close" aria-label="关闭视频">关闭 <span aria-hidden="true">×</span></button></div>
+      <div class="video-stage">
+        <video id="portfolio-video" controls playsinline preload="none" aria-label="作品视频">当前浏览器不支持视频播放。</video>
+        <div id="video-empty" class="video-empty" hidden><strong>实验视频待添加</strong><p>论文与研究主题可在下方查看。</p></div>
+      </div>
+      <div class="video-info">
+        <p id="video-paper" class="video-paper"></p><p id="video-meta" class="video-meta"></p><p id="video-description"></p>
+        <p id="video-status" role="status" hidden></p>
+        <div id="video-actions" class="video-actions"><button type="button" id="video-fullscreen">全屏播放</button><a id="video-direct" target="_blank" rel="noopener">直接打开视频 ↗</a></div>
+      </div>
+    </dialog>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/site-config.js"></script>
+    <script src="assets/js/video-portfolio.js"></script>
+  </body>
+</html>

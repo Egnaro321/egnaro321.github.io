@@ -1,0 +1,84 @@
+/* Video portfolio additions. Original Strata layout is kept in main.css. */
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; }
+body, input, select, textarea, button { font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", Arial, sans-serif; }
+body { color: #666; }
+.skip-link { position: fixed; top: -100px; left: 16px; padding: 10px 16px; background: #fff; color: #253d46; z-index: 9999; }
+.skip-link:focus { top: 12px; }
+.profile-monogram { display: inline-grid; place-items: center; width: 104px; height: 104px; margin-bottom: 24px; border: 1px solid #a0d6cb; border-radius: 50%; background: #233a42; color: #bcf0df; font-size: 28px; font-weight: 600; letter-spacing: .06em; }
+#header h1 { line-height: 1.8; }
+#header h1 strong { font-size: 1.4em; }
+#profile-affiliation, #profile-tagline { font-size: 16px; }
+.profile-section { margin-top: 22px; }
+.profile-section h3 { margin-bottom: 10px; color: #4a4a4a; font-size: 16px; font-weight: 600; }
+.research-list { list-style: none; margin: 0; padding: 0; }
+.research-list li { border-left: 2px solid #49bf9d; padding: 2px 0 2px 14px; margin: 9px 0; line-height: 1.7; font-size: 16px; }
+a:focus-visible, button:focus-visible { outline: 3px solid #49bf9d; outline-offset: 5px; }
+#header .profile-email { display: inline-block; font-size: .9em; margin-top: 1.2em; overflow-wrap: anywhere; }
+.profile-nav { margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 1.2em; justify-content: flex-end; font-size: .9em; }
+#one .major h2 { margin-bottom: .6em; }
+#profile-intro { margin-bottom: 1.2em; }
+.platform-list { display: flex; flex-wrap: wrap; gap: .6em; list-style: none; margin: 0; padding: 0; }
+.platform-list li { border: 1px solid #ddd; border-radius: .35em; font-size: .8em; padding: .25em .8em; }
+.platform-list li { font-size: 14px; }
+#works-intro { margin-top: -.75em; font-size: .9em; }
+.work-item { margin-bottom: 2em; }
+.work-item h3 { color: #4a4a4a; font-size: 1em; line-height: 1.65; margin-bottom: .4em; }
+.work-item h3.work-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.work-tag { display: inline-block; padding: 3px 8px; background: #edf6f2; border: 1px solid #d6e9e1; border-radius: 4px; color: #28624e; font-size: 14px; line-height: 1.6; font-weight: 400; }
+.video-thumb { position: relative; display: block; width: 100%; height: auto; padding: 0; margin: 0 0 1.15em; border: 0; border-radius: .35em; background: #29363a; box-shadow: none; line-height: 1; white-space: normal; overflow: hidden; aspect-ratio: 16 / 9; cursor: pointer; }
+.video-thumb:hover, .video-thumb:active { background: #29363a; box-shadow: none; }
+.video-thumb img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .2s ease; }
+.cover-placeholder { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 14px; width: 100%; height: 100%; padding: 24px; text-align: left; color: #fff; background: linear-gradient(135deg, #233d46, #172d35); }
+.cover-number { color: #9bd4c4; font-size: 14px; letter-spacing: .16em; }
+.cover-name { max-width: 100%; font-size: clamp(20px, 2.2vw, 30px); font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; }
+.video-state { position: absolute; left: 16px; bottom: 14px; z-index: 1; padding: 5px 9px; border: 1px solid #809990; border-radius: 4px; color: #e6f3ee; background: #172d35dd; font-size: 13px; line-height: 1.3; }
+.video-thumb.has-video:not(:has(img:not([hidden]))) .cover-placeholder { justify-content: flex-start; }
+.video-thumb:hover img { transform: scale(1.025); }
+.video-thumb::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent, rgba(0,0,0,.22)); pointer-events: none; }
+.play-badge { position: absolute; z-index: 1; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 3.4em; height: 3.4em; border: 1px solid rgba(255,255,255,.85); border-radius: 50%; background: rgba(0,0,0,.28); display: grid; place-items: center; color: #fff; }
+.play-badge::before { content: ""; width: 0; height: 0; border-top: .55em solid transparent; border-bottom: .55em solid transparent; border-left: .85em solid white; margin-left: .2em; }
+.work-item p.paper-name { font-size: .85em; line-height: 1.6; color: #666; overflow-wrap: anywhere; margin: 0 0 .45em; }
+.work-item p.work-meta { font-size: .75em; color: #248267; line-height: 1.5; margin-bottom: .5em; }
+.work-item p.work-description { font-size: .8em; line-height: 1.65; color: #777; }
+.work-item p.paper-name { font-size: 16px; color: #414a4d; font-weight: 500; line-height: 1.55; }
+.work-item p.work-meta { font-size: 14px; color: #286d56; }
+.work-item p.work-description { font-size: 15px; color: #686f71; }
+.publication-list { list-style: none; padding: 0; }
+.publication-list li { padding: 1em 0; border-top: 1px solid #eee; overflow-wrap: anywhere; }
+.publication-list li:first-child { border-top: 0; }
+.publication-list p { font-size: .85em; margin: .3em 0 0; }
+#config-error { padding: 1em; border-left: 3px solid #bc8e42; background: #fff7e8; font-size: .9em; }
+body.video-open { overflow: hidden; }
+.video-dialog { box-sizing: border-box; width: min(1000px, calc(100% - 36px)); max-width: 1000px; max-height: calc(100vh - 36px); max-height: calc(100dvh - 36px); padding: 0; margin: auto; border: 1px solid #394347; border-radius: 10px; background: #172024; color: #e7eeee; overflow: auto; overscroll-behavior: contain; box-shadow: 0 20px 100px #0008; }
+.video-dialog::backdrop { background: rgba(8,13,15,.85); }
+.video-topbar { position: sticky; z-index: 2; top: 0; background: #172024; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 20px; border-bottom: 1px solid #394347; }
+.video-topbar h2 { color: #fff; margin: 0; font-size: 1em; line-height: 1.5; overflow-wrap: anywhere; }
+#video-close { flex: 0 0 auto; min-width: 0; height: 40px; padding: 0 12px; line-height: 40px; font-size: 14px; color: #fff !important; border: 1px solid #657376; box-shadow: none; }
+#video-close span { font-size: 21px; margin-left: 4px; vertical-align: -1px; }
+.video-stage { display: flex; align-items: center; justify-content: center; background: #000; }
+.video-empty { width: 100%; padding: 60px 24px; text-align: center; background: #20343b; }
+.video-empty strong { display: block; color: #f2f7f5; font-size: 22px; font-weight: 400; }
+.video-empty p { color: #b9cac9; margin: 10px 0 0; font-size: 15px; }
+#portfolio-video { display: block; width: 100%; min-height: 120px; max-height: 65vh; max-height: 65dvh; aspect-ratio: 16 / 9; object-fit: contain; background: #000; }
+#portfolio-video:fullscreen { width: 100vw; height: 100vh; max-height: none; object-fit: contain; }
+.video-info { padding: 18px 22px 22px; }
+.video-info p { font-size: .85em; line-height: 1.65; margin: 0 0 .6em; overflow-wrap: anywhere; }
+.video-info .video-meta { color: #8dddc3; font-size: .75em; }
+.video-info p { font-size: 16px; }
+.video-info .video-meta { font-size: 14px; }
+#video-description { color: #bac5c8; }
+#video-status { padding: .8em 1em; background: #31382c; border-left: 3px solid #dac283; color: #f4e4b4; }
+.video-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; margin-top: 16px; font-size: .85em; }
+#video-fullscreen { height: 38px; line-height: 38px; padding: 0 16px; min-width: 0; font-size: 14px; color: #fff !important; box-shadow: inset 0 0 0 1px #657376; }
+.video-actions a { color: #8dddc3; }
+@media screen and (max-width:980px) { .profile-nav { justify-content: center; } }
+@media screen and (max-width:736px) { #work-grid > .work-item { width: 100%; } .cover-name { font-size: 28px; } }
+@media screen and (max-width:480px) {
+  .video-dialog { width: calc(100% - 16px); max-height: calc(100vh - 16px); max-height: calc(100dvh - 16px); }
+  .video-topbar { padding: 10px 12px; gap: 10px; }
+  .video-topbar h2 { font-size: .9em; }
+  .video-info { padding: 14px; }
+  .work-item p.paper-name { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .video-thumb img { transition: none; } }
