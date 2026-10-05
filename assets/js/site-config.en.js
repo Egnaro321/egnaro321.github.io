@@ -47,7 +47,7 @@ window.STRATA_SITE = {
       "shortName": "InteractVLA",
       "title": "Compliant Manipulation · Multiple Categories · Interaction Learning",
       "paper": "InteractVLA: Learning Physically Grounded Vision-Language-Action Policies for Contact-Rich Manipulation",
-      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)2026 · Accepted",
+      "meta": "IEEE International Conference on Robotics and Automation (ICRA)· Accepted",
       "description": "Decouples VLA planning from physical interaction control, combining contact-triggered adaptation with interaction learning to regulate compliance in contact-rich manipulation.",
       "cover": "images/IMG/InteractVLA.png",
       "video": "videos/InteractVLA.mp4"
@@ -65,7 +65,7 @@ window.STRATA_SITE = {
       "shortName": "DreamManip",
       "title": "Long-Horizon Manipulation · Visual Planning · Video Foundation Models",
       "paper": "DreamManip: Holistic Visual Planning for Long-Horizon Robotic Manipulation via Video Foundation Models",
-      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)2026 · Accepted",
+      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026· Accepted",
       "description": "Predicts task keyframes using video foundation models to construct temporally coherent sequences of visual goals. Holistic visual planning guides multi-stage robotic manipulation and long-horizon task execution.",
       "cover": "images/IMG/DreamManip.png",
       "video": "videos/dream.mp4"
@@ -74,7 +74,7 @@ window.STRATA_SITE = {
       "shortName": "PACR",
       "title": "Point–Axis Constraints · Multi-agent Systems · Compliant Manipulation",
       "paper": "PACR: Point-Axis Constraint Reasoning for Enhanced Robotic Manipulation with Dexterity and Compliance",
-      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)2025 · Published",
+      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025· Published",
       "description": "Reasons about manipulation constraints through point–axis geometric representations, integrating geometric relations into motion planning and compliant control to support dexterous manipulation and stable interaction in complex tasks.",
       "cover": "images/IMG/PACR.png",
       "video": "videos/PACR.mp4"
