@@ -40,7 +40,7 @@ window.STRATA_SITE = {
       "shortName": "CoordVLA",
       "title": "双臂协同 · VLA · 约束动作生成",
       "paper": "CoordVLA: Constraint-Guided Adaptation of Vision-Language-Action Models for Contact-Rich Manipulation",
-      "meta": "Conference on Robot Learning（CoRL）· 已录用",
+      "meta": "Conference on Robot Learning (CoRL)· 已录用",
       "description": "基于 VLA 构建双臂协同框架，通过模式感知的约束动作专家生成几何一致的协同动作，并联合调节臂间差动力与接触柔顺性。",
       "cover": "images/IMG/CoordVLA.png",
       "video": "videos/CoordVLA.mp4"
@@ -49,7 +49,7 @@ window.STRATA_SITE = {
       "shortName": "CoReTac",
       "title": "触觉精细操作 · 世界动作模型 · 预测式调节",
       "paper": "CoReTac: Diffusion-Referenced Predictive Tactile Regulation for Precision Contact-Rich Manipulation",
-      "meta": "IEEE Robotics and Automation Letters（RA-L）· 已录用",
+      "meta": "IEEE Robotics and Automation Letters (RA-L)· 已录用",
       "description": "以世界—动作模型提供动作参考，结合触觉预测、候选动作后果评估与反馈调节，实现接触丰富任务中的精细操作。",
       "cover": "images/IMG/CoreTac.png",
       "video": "videos/CoReTac.mp4"
@@ -58,7 +58,7 @@ window.STRATA_SITE = {
       "shortName": "InteractVLA",
       "title": "柔顺操作 · 多类别 · 交互学习",
       "paper": "InteractVLA: Learning Physically Grounded Vision-Language-Action Policies for Contact-Rich Manipulation",
-      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems（IROS）2026 · 已录用",
+      "meta": "IEEE International Conference on Robotics and Automation (ICRA)· 已录用",
       "description": "面向接触丰富的机器人操作，解耦 VLA 动作规划与交互控制，结合接触触发与交互学习，实现自适应柔顺调节。",
       "cover": "images/IMG/InteractVLA.png",
       "video": "videos/InteractVLA.mp4"
@@ -67,7 +67,7 @@ window.STRATA_SITE = {
       "shortName": "DLOs-Manip",
       "title": "可变形线性物体操作 · 滑移调节 · 残差强化学习",
       "paper": "Dual-Arm Motion-Slip Boundary Modulation for Stiff Cable Insertion via Residual Reinforcement Learning",
-      "meta": "IEEE Transactions on Automation Science and Engineering（T-ASE）· 已录用",
+      "meta": "IEEE Transactions on Automation Science and Engineering (T-ASE)· 已录用",
       "description": "针对刚性较高的线缆插接，结合双臂协同、滑移调节与残差强化学习，研究可变形线性物体的稳定操作。",
       "cover": "images/IMG/DLOs-Manip.png",
       "video": "videos/DLOs-Manip.mp4"
@@ -76,7 +76,7 @@ window.STRATA_SITE = {
       "shortName": "DreamManip",
       "title": "长程操作 · 视觉规划 · 视频基础模型",
       "paper": "DreamManip: Holistic Visual Planning for Long-Horizon Robotic Manipulation via Video Foundation Models",
-      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems（IROS）2026 · 已录用",
+      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026· 已录用",
       "description": "基于视频基础模型预测任务关键帧，构建时序连贯的视觉目标序列，通过整体视觉规划引导多阶段机器人操作与长程任务执行。",
       "cover": "images/IMG/DreamManip.png",
       "video": "videos/dream.mp4"
@@ -85,7 +85,7 @@ window.STRATA_SITE = {
       "shortName": "PACR",
       "title": "点轴约束 · 多智能体  · 柔顺操作",
       "paper": "PACR: Point-Axis Constraint Reasoning for Enhanced Robotic Manipulation with Dexterity and Compliance",
-      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems（IROS）2025 · 已发表",
+      "meta": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025· 已发表",
       "description": "基于点—轴几何表征开展操作约束推理，将几何关系融入动作规划与柔顺控制，支持复杂任务中的灵巧操作与稳定交互。",
       "cover": "images/IMG/PACR.png",
       "video": "videos/PACR.mp4"
@@ -94,7 +94,7 @@ window.STRATA_SITE = {
       "shortName": "HandoffWM",
       "title": "世界模型 · 技能衔接 · 长程精细操作",
       "paper": "HandoffWM: Contact-Grounded World Modeling for Skill Chaining in Long-Horizon Precision Manipulation",
-      "meta": "AAAI Conference on Artificial Intelligence（AAAI）· 在审",
+      "meta": "AAAI Conference on Artificial Intelligence (AAAI)· 在审",
       "description": "基于接触信息构建世界模型，预测技能执行后果并评估衔接可行性，支撑长视距精细操作中的技能链规划与连续执行。",
       "cover": "images/IMG/HandoffWM.png",
       "video": ""
@@ -103,7 +103,7 @@ window.STRATA_SITE = {
       "shortName": "TerraMat",
       "title": "人形运动控制 · 材料条件化 · 可变形地形",
       "paper": "TerraMat: Learning Material-Conditioned Humanoid Locomotion on Deformable Terrain",
-      "meta": "IEEE International Conference on Robotics and Automation（ICRA）· 在审",
+      "meta": "IEEE International Conference on Robotics and Automation (ICRA)· 在审",
       "description": "基于 GPU 加速的可变形地形仿真与并行训练，融合视觉预判与接触反馈，学习材料条件化的人形机器人自适应行走策略。",
       "cover": "images/IMG/TerraMat.png",
       "video": ""
