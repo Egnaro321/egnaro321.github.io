@@ -7,11 +7,11 @@ window.STRATA_SITE = {
     "avatar": "images/IMG/AU1.png",
     "email": "FYS2091276886@163.com",
     "introTitle": "About Me",
-    "intro": "I am a PhD student at Harbin Institute of Technology and expect to graduate in 2027. Since 2024, I have been conducting research at Tsinghua University as part of my joint doctoral training. My research focuses on embodied intelligence, with an emphasis on foundation model post-training, robot policy learning, and real-world validation. My work spans contact-rich manipulation with visual, force, and tactile feedback, bimanual coordination, and motion control for mobile robotic platforms.",
+    "intro": "I am a PhD student in Electronic Information at Harbin Institute of Technology, expecting to graduate in June 2027. Since 2024, I have been conducting research at Tsinghua University as part of my joint doctoral training, focusing on embodied AI. My research centers on embodied foundation model post-training, world models, and policy learning on real robots. I explore vision-force-tactile fusion, long-horizon manipulation planning, contact-rich precision manipulation, and humanoid whole-body control, with the aim of advancing frontier research in Physical AI and enabling its reliable real-world deployment. My work has been published in or accepted by robotics conferences and journals including CoRL, ICRA, IROS, T-ASE, and RA-L.",
     "research": [
-      "Embodied Foundation Model Post-training and Real-world Robot Manipulation",
-      "Humanoid Motion Control",
-      "Domain-specific Models and Agent Systems"
+      "Embodied Foundation Model Post-Training and Real-World Robotic Manipulation",
+      "World Models and Long-Horizon Manipulation Planning",
+      "Humanoid Whole-Body Control"
     ],
     "platforms": [
       "UR5",
