@@ -746,3 +746,11 @@ body.video-open {
     }
 
 }
+
+
+/* 手机端保留姓名、学校和研究方向之间的换行 */
+@media screen and (max-width: 480px) {
+  #header h1 br {
+    display: inline;
+  }
+}
